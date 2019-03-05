@@ -22,8 +22,9 @@ class SettingsPluginsNavigation extends React.Component {
     ...SentryTypes.NavigationGroup,
     organization: SentryTypes.Organization,
     project: SentryTypes.Project,
-    access: PropTypes.object,
-    features: PropTypes.object,
+
+    access: PropTypes.object, // eslint-disable-line react/no-unused-prop-types
+    features: PropTypes.object, // eslint-disable-line react/no-unused-prop-types
   };
 
   static contextTypes = {
